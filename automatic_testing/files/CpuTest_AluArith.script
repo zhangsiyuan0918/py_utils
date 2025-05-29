@@ -1,0 +1,200 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "95ca1b56-c47c-4e75-a577-d0f4603dba8e"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "06665126-211b-41a0-a611-f30b1f5c291d"
+			$inputs {
+				u32Mul29 = 58
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 2863267840
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name ""
+		$uuid "7ff26d1e-b184-4517-9518-eaf1f01b73d3"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "583db828-a069-4f77-9b68-c52866ed3ad7"
+			$inputs {
+				u32Mul29 = 9
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name ""
+		$uuid "d253a60c-0fcc-4f84-8152-547283781a4c"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "3edc7e9e-b701-441f-9591-914cce4bb2bd"
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 2
+				u32AA = 2863267840
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 4 {
+		$name ""
+		$uuid "b1bed34d-3355-4182-99dd-d4346dca0b99"
+
+		$teststep 4.1 {
+			$name ""
+			$uuid "9f297f68-0f0a-409c-a58a-76b1216aa876"
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 1
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 5 {
+		$name ""
+		$uuid "6c46f8ae-5e6d-458f-ad8a-0c5b8f436034"
+
+		$teststep 5.1 {
+			$name ""
+			$uuid "0a76b9b9-7e82-4258-b655-e37d16368b51"
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 1
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 6 {
+		$name ""
+		$uuid "8f0a261d-2d07-4f96-94ea-f2cb7f6fb422"
+
+		$teststep 6.1 {
+			$name ""
+			$uuid "8dee9575-a6fd-43b2-95b2-e3a67c965e27"
+			$inputs {
+				u32Mul29 = 0
+				u32Mul23 = *none*
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 7 {
+		$name ""
+		$uuid "417b9b82-2620-4ca3-b70d-cc9af65dce56"
+
+		$teststep 7.1 {
+			$name ""
+			$uuid "b8f7546a-ae9c-4c47-9fc8-7de6c7945504"
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 2
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 8 {
+		$name ""
+		$uuid "e4383486-670b-4315-afa1-43f6796409a3"
+
+		$teststep 8.1 {
+			$name ""
+			$uuid "0afe3cce-55f6-4ba7-9018-29f02ba55fff"
+			$inputs {
+				u32Mul29 = 0
+				u32Mul23 = *none*
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 9 {
+		$name ""
+		$uuid "f97ec62d-d8b2-439a-a0c8-cf78b3e88dce"
+
+		$teststep 9.1 {
+			$name ""
+			$uuid "32528fc0-e1d5-4678-9c33-672194b3e5e6"
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 3
+				u32AA = 0
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

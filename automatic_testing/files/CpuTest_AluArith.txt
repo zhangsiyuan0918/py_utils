@@ -1,0 +1,24 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "95ca1b56-c47c-4e75-a577-d0f4603dba8e"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "06665126-211b-41a0-a611-f30b1f5c291d"
+			$inputs {
+				u32Mul29 = 58
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 2863267840
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}

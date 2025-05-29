@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<batchtest>
+  <operations>
+    <operation key="executeTest">
+      <options>
+        <option key="checkInterface" value="false"/>
+        <option key="generateDriver" value="false"/>
+        <option key="run" value="true"/>
+        <option key="createNewTestRun" value="true"/>
+        <option key="instrumentationType" value="TESTOBJECT_ONLY"/>
+        <option key="defaultCoverage" value="false"/>
+        <option key="defaultCoveragePerTestObject" value="false"/>
+      </options>
+      <coverageTypes>
+        <coverageType name="DECISION"/>
+        <coverageType name="STATEMENT"/>
+        <coverageType name="BRANCH"/>
+        <coverageType name="MCDC"/>
+      </coverageTypes>
+    </operation>
+    <operation key="generateBatchReport">
+      <options>
+        <option key="reportOutputDirectory" value="$(PROJECTROOT)\Tools\Tessy\report"/>
+      </options>
+      <arguments>
+        <argument name="OPT_SHOW_PIE_CHART" value="true"/>
+        <argument name="OPT_SHOW_TEST_OBJECT_LIST" value="true"/>
+        <argument name="OPT_SHOW_BAR_CHART" value="true"/>
+        <argument name="OPT_SHOW_COVERAGE_CHARTS" value="true"/>
+        <argument name="OPT_INCLUDE_REPORT_COMMENTS" value="true"/>
+        <argument name="OPT_SHOW_SUMMARY" value="true"/>
+        <argument name="OPT_SHOW_PROJECT_ITEMS" value="true"/>
+      </arguments>
+    </operation>
+    <operation key="generateTestReport">
+      <options>
+        <option key="reportOutputDirectory" value="$(PROJECTROOT)\Tools\Tessy\report"/>
+        <option key="reportFileNamePattern" value="TESSY_DetailsReport_$(TESTOBJECT)"/>
+        <option key="reportOutputFormat" value="pdf"/>
+      </options>
+      <arguments>
+        <argument name="OPT_TESTDATA_ONLY_MODE" value="false"/>
+        <argument name="OPT_SHOW_PROPERTIES" value="true"/>
+        <argument name="OPT_SHOW_USER_AND_HOST" value="false"/>
+        <argument name="OPT_SHOW_COVERAGE" value="true"/>
+        <argument name="OPT_SHOW_ATTRIBUTES" value="true"/>
+        <argument name="OPT_SHOW_COMMENTS" value="true"/>
+        <argument name="OPT_SHOW_CTE" value="true"/>
+        <argument name="OPT_SHOW_USERCODE" value="true"/>
+        <argument name="OPT_SHOW_TS_DETAILS" value="true"/>
+        <argument name="OPT_SHOW_REQUIREMENT_TEXT" value="false"/>
+        <argument name="OPT_HIDE_NONE_VALUES" value="true"/>
+        <argument name="OPT_SHOW_NOTES" value="true"/>
+        <argument name="OPT_SHOW_UUID" value="false"/>
+      </arguments>
+    </operation>
+    <operation key="generateExecutionCoverageReport">
+      <options>
+        <option key="reportOutputDirectory" value="$(PROJECTROOT)\Tools\Tessy\report"/>
+        <option key="reportOutputFormat" value="pdf"/>
+      </options>
+      <arguments>
+        <argument name="OPT_SHOW_PIE_CHART" value="true"/>
+        <argument name="OPT_SHOW_REQUIREMENTS_LIST" value="true"/>
+        <argument name="OPT_SHOW_REQUIREMENT_DETAILS" value="true"/>
+        <argument name="OPT_SHOW_TEST_ITEM_LIST" value="true"/>
+        <argument name="OPT_HIDE_TESTCASE_LINKS" value="false"/>
+        <argument name="OPT_HIDE_REQUIREMENT_DETAILS" value="false"/>
+        <argument name="OPT_REQUIREMENT_ID_ONLY" value="false"/>
+      </arguments>
+      <requirements>
+            </requirements>
+      <testmeans/>
+    </operation>
+  </operations>
+  <elements>
+    <testcollection name="UnitTest">
+      <module name="BrsMainStartup">
+        <testobject name="Brs_MemoryInit"/>
+      </module>
+      <module name="CPUTest">
+        <testobject name="CpuTest_AluArith"/>
+      </module>
+    </testcollection>
+  </elements>
+</batchtest>

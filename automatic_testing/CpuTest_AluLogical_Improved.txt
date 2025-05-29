@@ -1,0 +1,45 @@
+$testobject {
+
+	$testcase 1 {
+		$name "Normal logical operations"
+		$uuid "dc807183-9d00-4214-9f32-6730eeb3eae9"
+
+		$teststep 1.1 {
+			$name "测试正常的逻辑运算：AND、OR、XOR、NOT"
+			$uuid "176c749c-b9c1-45e1-bfc1-c10a28447af1"
+			$inputs {
+				u32FF = 4294967295
+				u32AA = 2863311530
+				u3255 = 1431655765
+			}
+			$outputs {
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Invalid logical patterns"
+		$uuid "7365ec6f-bdf2-4d4a-862e-ac5ccf2d9595"
+
+		$teststep 2.1 {
+			$name "测试错误的逻辑模式导致测试失败"
+			$uuid "b0bcb5f4-1b32-4ac2-99a1-b800911b9a5c"
+			$inputs {
+				u32FF = 305419896
+				u32AA = 2863311530
+				u3255 = 1431655765
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+}

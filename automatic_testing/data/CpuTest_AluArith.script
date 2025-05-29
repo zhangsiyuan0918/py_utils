@@ -1,0 +1,623 @@
+$testobject{
+ $testcase 1 {
+		$name ""
+		$uuid ""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 58
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 2863267840
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 2 {
+		$name ""
+		$uuid ""
+
+		$teststep 2.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 9
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 3 {
+		$name ""
+		$uuid ""
+
+		$teststep 3.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 2
+				u32AA = 2863267840
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 4 {
+		$name ""
+		$uuid ""
+
+		$teststep 4.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 1
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 5 {
+		$name ""
+		$uuid ""
+
+		$teststep 5.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 1
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 6 {
+		$name ""
+		$uuid ""
+
+		$teststep 6.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 0
+				u32Mul23 = *none*
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 7 {
+		$name ""
+		$uuid ""
+
+		$teststep 7.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 2
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 8 {
+		$name ""
+		$uuid ""
+
+		$teststep 8.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 0
+				u32Mul23 = *none*
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 9 {
+		$name ""
+		$uuid ""
+
+		$teststep 9.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 3
+				u32AA = 0
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 10 {
+		$name ""
+		$uuid ""
+
+		$teststep 10.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = *none*
+				u32Mul23 = *none*
+				u32Mul19 = *none*
+				u32AA = *none*
+			}
+			$outputs {
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 11 {
+		$name ""
+		$uuid ""
+
+		$teststep 11.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = *none*
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 12 {
+		$name ""
+		$uuid ""
+
+		$teststep 12.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = *none*
+				u32Mul23 = 0
+				u32Mul19 = *none*
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 1 {
+		$name ""
+		$uuid ""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 58
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 2863267840
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 2 {
+		$name ""
+		$uuid ""
+
+		$teststep 2.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 9
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 3 {
+		$name ""
+		$uuid ""
+
+		$teststep 3.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 2
+				u32AA = 2863267840
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 4 {
+		$name ""
+		$uuid ""
+
+		$teststep 4.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 1
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 5 {
+		$name ""
+		$uuid ""
+
+		$teststep 5.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 1
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 6 {
+		$name ""
+		$uuid ""
+
+		$teststep 6.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 0
+				u32Mul23 = *none*
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 7 {
+		$name ""
+		$uuid ""
+
+		$teststep 7.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 2
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 8 {
+		$name ""
+		$uuid ""
+
+		$teststep 8.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 0
+				u32Mul23 = *none*
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 9 {
+		$name ""
+		$uuid ""
+
+		$teststep 9.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 667
+				u32Mul23 = *none*
+				u32Mul19 = 3
+				u32AA = 0
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 10 {
+		$name ""
+		$uuid ""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = *none*
+				u32Mul23 = *none*
+				u32Mul19 = *none*
+				u32AA = *none*
+			}
+			$outputs {
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 11 {
+		$name ""
+		$uuid ""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = *none*
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 12 {
+		$name ""
+		$uuid ""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = *none*
+				u32Mul23 = 0
+				u32Mul19 = *none*
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 13 {
+		$name ""
+		$uuid ""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = 58
+				u32Mul23 = *none*
+				u32Mul19 = 0
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 14 {
+		$name ""
+		$uuid ""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = *none*
+				u32Mul23 = 0
+				u32Mul19 = 0
+				u32AA = *none*
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+ $testcase 15 {
+		$name ""
+		$uuid ""
+
+		$teststep 1.1 {
+			$name ""
+			$uuid ""
+			$inputs {
+				u32Mul29 = *none*
+				u32Mul23 = *none*
+				u32Mul19 = 0
+				u32AA = 43690
+			}
+			$outputs {
+				return *none*
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+}
+
+}
+
+}

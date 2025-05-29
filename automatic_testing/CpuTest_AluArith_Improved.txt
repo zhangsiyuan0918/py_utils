@@ -1,0 +1,69 @@
+$testobject {
+
+	$testcase 1 {
+		$name "Normal arithmetic operations"
+		$uuid "f740d1c1-966f-4a16-9ef7-c78979b5452a"
+
+		$teststep 1.1 {
+			$name "测试正常的算术运算：乘法、除法、位移、加法、减法"
+			$uuid "9cd6f89a-0ed4-451f-8e07-0bbb8fd784b0"
+			$inputs {
+				u32Mul29 = 1078282205
+				u32Mul23 = 37182145
+				u32Mul19 = 1616615
+				u32AA = 2863311530
+			}
+			$outputs {
+				return 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name "Invalid multiplication constants"
+		$uuid "95af4873-92c3-40b6-bf88-3a5a3f76eb50"
+
+		$teststep 2.1 {
+			$name "测试错误的乘法常量导致测试失败"
+			$uuid "5278c714-8dad-4f36-94a3-5f782951b7b9"
+			$inputs {
+				u32Mul29 = 100
+				u32Mul23 = 37182145
+				u32Mul19 = 1616615
+				u32AA = 2863311530
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name "Invalid shift pattern"
+		$uuid "45ee01c7-7843-4a26-97f0-0cdd8cb9d05d"
+
+		$teststep 3.1 {
+			$name "测试错误的位移模式导致测试失败"
+			$uuid "1e3b9531-15a7-4648-9348-819b95b25ed1"
+			$inputs {
+				u32Mul29 = 1078282205
+				u32Mul23 = 37182145
+				u32Mul19 = 1616615
+				u32AA = 305419896
+			}
+			$outputs {
+				return 1
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+
+}

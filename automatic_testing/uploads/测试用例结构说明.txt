@@ -1,0 +1,91 @@
+### 测试用例结构说明（针对C语言）
+
+1. **整体结构要求**：
+   - 一个完整的用例文件必须被`$testobject{}`包含。
+   - `$testobject`中至少要存在一个`$testcase{}`。
+   - 每个`$testcase{}`中至少要存在一个`$teststep{}`。
+   - 每个$testcase与$teststep的$name 默认为""
+   - 每个$testcase与$teststep的$uuid默认为""
+   - 每个$testcase中的$teststep的number要与$testcase一致
+	'''
+	$testcase 1{
+		$teststep 1.1{}
+	}
+	$testcase 2{
+		$teststep 2.1{}
+	}
+	'''
+
+2. **内容规范**：
+   - 用例中不允许出现中文。
+   - 对于uuid，如果原用例中存在，则不修改；否则按默认值""填充
+   - 对于外部函数，可以通过定义$stubfunctions{}来实现其返回值
+   - 如果要定义输入，则在`$inputs{}`里定义；如果要定义输出，则在`$outputs{}`里定义。
+   - 如果要新增用例，要创建新的$testcase以及对应的$teststep，而不是在原有的$testcase中增加$teststep
+   - 所有的`$calltrace`内容全部替换为：
+     ```
+     $calltrace {
+         *** Ignore Call Trace ***
+     }
+     ```
+   - 对于指针类型变量，可按照以下示例创建
+	'''
+	&target_PtrA {
+		DataPtr = target_DataPtr
+		Length = *none*
+	}
+	&target_DataPtr = *none*
+	'''
+   - 将"ret = FALSE"语句改为"return 0"
+   - 将"ret = TRUE"语句改为"return 1"
+   - 如果
+3. **示例**：
+   ```
+  $testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "04972c0f-70aa-47cf-a62d-3ab94ce495a2"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "606747a1-4798-44d0-ac36-6e60b07477c7"
+			$stubfunctions {
+				unsigned char stub1(int * a, double * b, unsigned char * c) '''
+					static int step = 0;
+					switch (step) {
+					case 0:
+						return 1;
+					default:
+						break;
+					}
+					step++;
+				'''
+			}
+			$inputs {
+				attr1 = 0
+				PduInfoPtr = target_PduInfoPtr
+				&target_PduInfoPtr {
+					SduDataPtr = target_SduDataPtr
+					SduLength = *none*
+				}
+				&target_SduDataPtr = *none*
+			}
+			$outputs {
+				return 0
+				&target_SduDataPtr = 0
+			}
+			$calltrace {
+				*** Ignore Call Trace ***
+			}
+		}
+	}
+}
+   ```
+
+4. **其他注意事项**：
+   - 测试用例中不需要任何注释。
+   - case中所有内容都应该在函数中可以体现出来。
+   - case中赋值的时候不应该存在不确定的情况（即不应使用不确定的变量）。
+   - case内容应尽可能覆盖函数所有的分支与语句。
+   - case中不要出现函数中没有的变量。
